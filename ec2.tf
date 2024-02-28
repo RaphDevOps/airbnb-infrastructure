@@ -8,6 +8,5 @@ resource "aws_instance" "web" {
   iam_instance_profile = "AdminRoleEC2"
   tags = {
     Name = "airbnb-web-server"
-    ENV = "dev"
   }
 }
